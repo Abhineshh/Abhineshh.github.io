@@ -7,9 +7,8 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <section
-  className=" bg-[url('/images/hero-background.png')] h-screen pl-11 pt-20 bg-no-repeat bg-cover">
-  <div className="grid grid-cols-1 sm:grid-cols-12">
+    <section className=" sm:bg-[url('/images/hero-background.png')] bg-[url('/images/hero-background-mobile.png')] h-screen mt-8 p-11 bg-no-repeat bg-cover">
+      <div className="grid grid-cols-1 sm:grid-cols-12">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -17,9 +16,7 @@ const HeroSection = () => {
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-black mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r text-red-700">
-              Hello, I&apos;m{" "}
-            </span>
+            <span className="text-red-700 ">Hello, I am </span>
             <br></br>
             <TypeAnimation
               sequence={["Abhinesh V", 1000, "ML Engineer", 1000]}
@@ -52,8 +49,10 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-4 place-self-center mt-4 lg:mt-0"
-        ></motion.div>
+          className="col-span-4 place-self-center mt-4 lg:mt-0 border-2"
+        >
+       
+        </motion.div>
       </div>
     </section>
   );
