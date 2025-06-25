@@ -9,7 +9,7 @@ const HeroSection = () => {
   return (
     <section className=" sm:bg-[url('/images/hero-background.png')] bg-[url('/images/hero-background-mobile.png')] h-screen mt-8 p-11 bg-no-repeat bg-cover">
       <div className="grid grid-cols-1 sm:grid-cols-12">
-         {/* <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
@@ -21,7 +21,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-8 place-self-center text-center sm:text-left justify-self-start border-2 border-red-800"
+          className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-black mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
             <span className="text-red-700 ">Hello, I am </span>
