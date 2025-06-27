@@ -52,19 +52,9 @@ const TAB_DATA = [
           <a
             className="text-blue-700 font-bold"
             target="_blank"
-            href="https://coursera.org/share/0660797e07518b1cd76d7b38e30e7c69"
+            href="https://coursera.org/share/fe654dbbbb13f53f78d3658962b5cc15"
           >
             Coursera
-          </a>
-        </li>
-        <li>
-          JavaScript Certification - From{" "}
-          <a
-            className="text-blue-700 font-bold"
-            target="_blank"
-            href="https://kodacy.com/tutor-certificate?cert_hash=d68d1d8fb4147b5a"
-          >
-            Kodacy
           </a>
         </li>
       </ul>
